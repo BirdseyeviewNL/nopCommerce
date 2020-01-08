@@ -76,6 +76,9 @@ namespace Nop.Web.Framework.Infrastructure
 
             //easy caching
             application.UseEasyCaching();
+
+            //use cache synchronization.
+            application.UseCacheSynchronization();
         }
 
         /// <summary>
